@@ -18,10 +18,10 @@ export const siteIdentity: SiteIdentity = {
   yearsExperience: 6,
   hours: 'Daily, 12:00 PM - 11:00 PM',
   media: {
-    heroPortrait: '/images/katie-hero.png',
-    aboutPortrait: '/images/katie-contact.png',
-    quickContactPortrait: '/images/katie-hero.png',
-    officeLocation: '/images/office-location.svg',
+    heroPortrait: './images/katie-hero.png',
+    aboutPortrait: './images/katie-contact.png',
+    quickContactPortrait: './images/katie-hero.png',
+    officeLocation: './images/office-location.svg',
   },
 }
 
@@ -39,7 +39,7 @@ export const serviceList: Service[] = [
     durationMinutes: 120,
     rateInfo: '$250 / 2-hour session',
     icon: 'heart',
-    image: '/images/katie-contact.png',
+    image: './images/katie-contact.png',
     imageAlt: 'Katie V available for elegant dinner companion session',
     highlights: [
       'Warm, confident social presence',
@@ -58,7 +58,7 @@ export const serviceList: Service[] = [
     durationMinutes: 180,
     rateInfo: '$350 / 3-hour event package',
     icon: 'sparkles',
-    image: '/images/katie-hero.png',
+    image: './images/katie-hero.png',
     imageAlt: 'Katie V event plus-one booking experience',
     highlights: [
       'Confident public presence',
@@ -77,7 +77,7 @@ export const serviceList: Service[] = [
     durationMinutes: 150,
     rateInfo: '$300 / 2.5-hour outing',
     icon: 'users',
-    image: '/images/katie-contact.png',
+    image: './images/katie-contact.png',
     imageAlt: 'Katie V city outing companionship service',
     highlights: [
       'Relaxed and fun atmosphere',
@@ -96,7 +96,7 @@ export const serviceList: Service[] = [
     durationMinutes: 90,
     rateInfo: '$180 / 90-minute meet',
     icon: 'coffee',
-    image: '/images/katie-hero.png',
+    image: './images/katie-hero.png',
     imageAlt: 'Katie V coffee and conversation companionship',
     highlights: [
       'Public, relaxed meetup setting',
@@ -115,7 +115,7 @@ export const serviceList: Service[] = [
     durationMinutes: 240,
     rateInfo: 'Custom quote based on schedule and location',
     icon: 'plane',
-    image: '/images/office-location.svg',
+    image: './images/office-location.svg',
     imageAlt: 'Travel companionship booking service',
     highlights: [
       'Pre-trip planning call',
