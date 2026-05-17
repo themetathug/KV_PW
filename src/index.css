@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply m-0 bg-blush-50 font-sansBody text-slate-800 antialiased;
+  background-image:
+    radial-gradient(circle at 18% 0%, rgba(255, 210, 225, 0.42), transparent 34%),
+    radial-gradient(circle at 82% 10%, rgba(239, 215, 159, 0.36), transparent 30%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  @apply no-underline;
+}
+
+.reveal-transition {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease;
+}
+
+.reveal-transition.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-card {
+  transform-origin: center;
+}
+
+.service-card:hover {
+  animation: cardFloat 420ms ease forwards;
+}
+
+@keyframes cardFloat {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
